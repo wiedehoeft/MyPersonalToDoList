@@ -1,0 +1,7 @@
+Offene Fragen:
+HTML mit JS initialisieren? => Wenn ja, wie ohne jquery?
+HTML-Templates verwenden?
+Vermeidung von globalen Variablen, ggf. mit Hilfe 
+  von CommonJS (Node.js-Format)
+
+CSS-Strukturierung einer Website? => Responsive Grid-View/ CSS-Grid-Layout
