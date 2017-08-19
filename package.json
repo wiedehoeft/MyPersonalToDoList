@@ -1,0 +1,28 @@
+{
+  "name": "tasklist",
+  "version": "1.0.0",
+  "description": "A tasklist specially customized for own needs",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.3"
+  },
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wiedehoeft/MyPersonalToDoList.git"
+  },
+  "author": "Christian Wiedehöft",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wiedehoeft/MyPersonalToDoList/issues"
+  },
+  "homepage": "https://github.com/wiedehoeft/MyPersonalToDoList#readme"
+}

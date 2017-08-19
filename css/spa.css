@@ -1,101 +1,21 @@
-.spa-shell-head, .spa-shell-head-acct, .spa-shell-head-logo,
-.spa-shell-head-search, .spa-shell-main,
-.spa-shell-main-nav, .spa-shell-main-content,
-.spa-shell-footer, .spa-shell-tasklist 
-{
-    position: absolute;
+.container-fluid {
+    background: gray;
 }
 
-.spa-shell-head {
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    height: 40px;
-}
-
-.spa-shell-head-logo {
-    top: 4px;
-    left: 4px;
-    height: 32px;
-    width: 128px;
-    background: orange;
-}
-
-.spa-shell-head-acct {
-    top: 4px;
-    right: 0px;
-    width: 64px;
-    height: 32px;
+.container {
     background: green;
 }
 
-.spa-shell-head-search {
-    top: 4px;
-    right: 64px;
-    width: 248px;
-    height: 32px;
-    background: blue;
+.row {
+    background-color: blue;
+    color: white;
+    text-align: center;
 }
 
-.spa-shell-main {
-    top: 40px;
-    left: 0px;
-    bottom: 40px;
-    right: 0px;
+textarea:focus, input:focus {
+    outline: none;
 }
 
-.spa-shell-main-content,
-.spa-shell-main-nav {
-    top: 0px;
-    bottom: 0px;
-}
-
-.spa-shell-main-nav {
-    width: 250px;
-    background: #eee;
-}
-
-.spa-shell-main-content {
-    left: 250px;
-    right: 0px;
-    background: #ddd;
-}
-
-.spa-shell-footer {
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 40px;
-}
-
-.spa-shell-tasklist {
-    margin-top: -300px;
-    margin-left: -300px;
-    top: 50%;
-    left: 50%;
-    width: 600px;
-    height: 600px;
-    background: #fff;
-    border-radius: 3px;
-    z-index: 2; 
-}
-
-.spa-shell-task {
-    width: 200px;
-    height: 150px;
-    background: #27CB05;
-    border-radius: 3px;
-    z-index: 2;
-    margin-left: 10px;
-    margin-top: 10px; 
-}
-
-.spa-shell-task-title {
-    display: none;
-}
-
-.spa-shell-task-details {
-    width: 150px;
-    height: 150px;
-    background: yellow;
+textarea {
+    border: none;
 }
